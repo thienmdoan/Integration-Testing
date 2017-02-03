@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "watch": "nodemon .",
     "test": "mocha -w -R nyan"
   },
   "repository": {
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
   }
 }
